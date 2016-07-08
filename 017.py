@@ -1,11 +1,12 @@
 #!/usr/bin/python
 # -*- coding: UTF-8 -*-
 import string
-s= raw_input('input a string:\n')
-letters=0
-space=0
-digit=0
-others=0
+
+s = raw_input('input a string:\n')
+letters = 0
+space = 0
+digit = 0
+others = 0
 for c in s:
     if c.isalpha():
         letters += 1
@@ -14,7 +15,7 @@ for c in s:
     elif c.isspace():
         space += 1
     else:
-        others +=1
+        others += 1
 print ("letters:%2d\n") % letters
 print ("digit:  %2d\n") % digit
 print ("space:  %2d\n") % space

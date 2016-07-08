@@ -10,6 +10,7 @@ def fib(n):
         fibs.append(fibs[-1] + fibs[-2])
     return fibs
 
+
 # 输出前 10 个斐波那契数列
-n=input("n:\n")
-print fib(n) 
+n = input("n:\n")
+print fib(n)

@@ -1,10 +1,12 @@
 #!/usr/bin/python
 # -*- coding: UTF-8 -*-
 def age(n):
-    if n==1:
+    if n == 1:
         return 10
     else:
-        return age(n-1)+2
-n=input("n:")
+        return age(n - 1) + 2
+
+
+n = input("n:")
 
 print(age(n))

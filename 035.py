@@ -9,4 +9,6 @@ class bcolors:
     ENDC = '\033[0m'
     BOLD = '\033[1m'
     UNDERLINE = '\033[4m'
+
+
 print (bcolors.WARNING + "警告的颜色字体？" + bcolors.ENDC)

@@ -1,8 +1,8 @@
 #!/usr/bin/python
 # -*- coding: UTF-8 -*-
 s1 = raw_input("Please enter the first letter: \n")
-if s1 =='S':
-    s2 = raw_input ("Please enter the second letter:")
+if s1 == 'S':
+    s2 = raw_input("Please enter the second letter:")
     if s2 == 'a':
         print("Saturday")
     elif s2 == 'u':
@@ -10,7 +10,7 @@ if s1 =='S':
     else:
         print("Error")
 elif s1 == 'T':
-    s2 = raw_input ("Please enter the second letter:")
+    s2 = raw_input("Please enter the second letter:")
     if s2 == 'u':
         print("Tuesday")
     elif s2 == 'h':
